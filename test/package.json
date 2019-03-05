@@ -1,0 +1,34 @@
+{
+  "name": "bedrock-ledger-consensus-continuity-stats-monitor-test",
+  "version": "0.0.1-0",
+  "private": true,
+  "scripts": {
+    "test": "redis-cli flushall && node --preserve-symlinks test test"
+  },
+  "dependencies": {
+    "bedrock": "^1.15.0",
+    "bedrock-docs": "^3.1.0",
+    "bedrock-express": "^2.1.0",
+    "bedrock-injector": "^1.0.0",
+    "bedrock-jobs": "^3.0.0",
+    "bedrock-ledger-consensus-continuity": "^3.2.1",
+    "bedrock-ledger-consensus-continuity-es-most-recent-participants": "^2.1.0",
+    "bedrock-ledger-consensus-continuity-storage": "^2.3.0",
+    "bedrock-ledger-consensus-continuity-stats-monitor": "file:..",
+    "bedrock-ledger-context": "^11.0.0",
+    "bedrock-ledger-node": "^8.0.0",
+    "bedrock-ledger-node-stats-monitor": "^1.0.0",
+    "bedrock-ledger-storage-mongodb": "^2.2.0",
+    "bedrock-mongodb": "^5.5.0",
+    "bedrock-package-manager": "1.0.0",
+    "bedrock-permission": "^2.5.3",
+    "bedrock-redis": "^3.4.0",
+    "bedrock-rest": "^2.1.2",
+    "bedrock-server": "^2.3.2",
+    "bedrock-stats": "^1.0.0",
+    "bedrock-stats-storage-redis": "^1.0.0",
+    "bedrock-test": "^2.1.0",
+    "bedrock-validation": "^4.1.0",
+    "bedrock-views": "^6.4.0"
+  }
+}

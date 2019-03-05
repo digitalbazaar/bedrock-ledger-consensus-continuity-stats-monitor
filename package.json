@@ -1,0 +1,41 @@
+{
+  "name": "bedrock-ledger-consensus-continuity-stats-monitor",
+  "version": "0.0.1-0",
+  "description": "Bedrock ledger consensus Continuity stats monitor",
+  "main": "lib",
+  "scripts": {
+    "lint": "eslint lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-ledger-consensus-continuity-stats-monitor.git"
+  },
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-ledger-consensus-continuity-stats-monitor/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-ledger-consensus-continuity-stats-monitor",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "systeminformation": "^4.0.14"
+  },
+  "peerDependencies": {
+    "bedrock": "^1.15.0",
+    "bedrock-ledger-consensus-continuity": "^3.2.1",
+    "bedrock-ledger-consensus-continuity-storage": "^2.3.0",
+    "bedrock-ledger-node": "^8.0.0",
+    "bedrock-redis": "^3.4.0",
+    "bedrock-stats": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-digitalbazaar": "^2.0.0"
+  }
+}
