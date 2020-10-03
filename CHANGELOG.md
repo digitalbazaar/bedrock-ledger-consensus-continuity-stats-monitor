@@ -1,5 +1,11 @@
 # bedrock-ledger-consensus-continuity-stats-monitor ChangeLog
 
+## 1.1.0 - 2020-10-02
+
+### Added
+- Make `slidingWindowSeconds` configurable for computation of
+  `localOpsPerSecond` and `peerOpsPerSecond`.
+
 ## 1.0.1 - 2019-11-13
 
 ### Changed
