@@ -1,5 +1,10 @@
 # bedrock-ledger-consensus-continuity-stats-monitor ChangeLog
 
+## 1.1.1 - 2020-10-02
+
+### Fixed
+- Fix destructuring of bedrock.config.
+
 ## 1.1.0 - 2020-10-02
 
 ### Added
