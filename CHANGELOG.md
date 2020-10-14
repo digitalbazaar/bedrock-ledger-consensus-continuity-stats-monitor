@@ -1,5 +1,10 @@
 # bedrock-ledger-consensus-continuity-stats-monitor ChangeLog
 
+## 1.2.0 - 2020-10-xx
+
+### Added
+- Add `localOpsListLength` as another tracked metric.
+
 ## 1.1.1 - 2020-10-02
 
 ### Fixed
