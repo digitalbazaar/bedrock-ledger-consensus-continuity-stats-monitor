@@ -25,6 +25,7 @@
   },
   "peerDependencies": {
     "bedrock": "1.18.1 - 3.x",
+    "bedrock-cooldown": "digitalbazaar/bedrock-cooldown#initial",
     "bedrock-ledger-consensus-continuity": "3.2.1 - 4.x",
     "bedrock-ledger-consensus-continuity-storage": "^2.3.0",
     "bedrock-ledger-node": "^9.0.0",
