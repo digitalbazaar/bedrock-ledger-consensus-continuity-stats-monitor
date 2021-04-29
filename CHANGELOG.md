@@ -1,5 +1,12 @@
 # bedrock-ledger-consensus-continuity-stats-monitor ChangeLog
 
+## 2.0.0 - TBD
+
+### Changed
+- Stop collection of `mergeEventsTotal` metric.
+- Stop collection of `eventsTotal` metric.
+- Upgrade to latest bedrock-ledger APIs.
+
 ## 1.2.0 - 2020-10-13
 
 ### Added
